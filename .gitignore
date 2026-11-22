@@ -1,0 +1,62 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage outputs
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+.tox/
+
+# Generated extraction data
+raw_extraction.json
+raw_extraction*.json
+verified_extraction.json
+verified_extraction*.json
+verified_rig.json
+verified_rig*.json
+
+# Logs
+*.log
+logs/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local scratch and temporary files
+tmp/
+temp/
+*.tmp
+*.swp
